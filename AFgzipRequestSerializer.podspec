@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'AFgzipRequestSerializer'
   s.requires_arc = true
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '9.0'
 
   s.dependency 'AFNetworking', '~> 4.0'
   s.dependency 'Godzippa', '~> 1.0'
